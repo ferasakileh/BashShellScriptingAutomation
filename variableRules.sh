@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# the rules for naming variables are as follows
+
+# Variable Name should contain only a-z or A-Z, 0-9 and _ characters
+# Variable Name should not start with a number
+# Variable Name length should be less than or equal to 20 characters
+
+myname=FERAS
+myName=FERAS
+ny_Name=FERAS
+myName1=FERAS
+
+# VARIABLES ARE CASE SENSITIVE SO...
+
+x=4
+X=56
+
+# ARE DIFFERENT
+
+# DO NOT ADD SPACES ON EITHER SIDES OF THE EQUAL SYMBOL WHILE DEFINING VARIABLES
+
+a1=34
+a2=25
+a3=41
+
+a4=a1+a2+a3
+
+# THERE IS NO NEED TO DECLARE VARIABLE TYLE, THE SCRIPT WILL AUTOMATICALLY TAKE CARE OF TYPE WHEN EXECUTING COMMANDS OR SCRIPTS
+
+# IF ANY OF THE DATA IN A VARIABLE CONSISTS OF SPACES, THEN YOU MUST USE QUOTES
+
+# WE CAN STORE THE OUTPUT OF A COMMAND INTO A VARIABLE AS FOLLOWS:
+    anyVariableA=$(command)
+    anyVariableB='command'
+
+# WE CAN ASSIGN ONE VARIABLE VALUE/DATA INTO ANOTHER USING:
+    Name="Shell Scripting"
+    NewName=$Name
+    NewName=${Name}
+
+# IT IS BEST PRACTICE TO AVOID VARIABLE NAMES WHERE ALL OF THE LETTERS ARE IN UPPERCASE BECAUSE THEY COULD BE MISTAKEN FOR SYSTEM VARIABLES
