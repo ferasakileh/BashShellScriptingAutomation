@@ -1,0 +1,5 @@
+this is a text file
+this text file is to test certain scripts
+there are many files in this repo
+most of them are .sh files
+thank you
