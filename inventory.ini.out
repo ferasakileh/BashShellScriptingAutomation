@@ -1,0 +1,10 @@
+serverName   : environment
+[web_servers] : [web_servers]
+web01 : example
+web02 : example
+[database_servers] : [database_servers]
+10 : 0
+10 : 0
+[linux:children] : [linux:children]
+web_servers : web_servers
+database_servers : database_servers
